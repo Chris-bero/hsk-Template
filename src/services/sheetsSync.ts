@@ -177,7 +177,7 @@ function doGet(e) {
 import { ALLOWED_STUDENTS, authenticateStudent } from '../data/students';
 import { SheetsSyncPayload, Student } from '../types';
 
-export const GOOGLE_SCRIPT_WEB_APP_URL = '';
+export const GOOGLE_SCRIPT_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbxA27jKarngLH1l9aIK8vVxd_vNj1UZG6dXTMqluOcaBe6VoFd0VzE7snVvPXqQFdR_fQ/exec ';
 
 const LOCAL_SYNC_BACKUP_KEY = 'chinese_portal_sheets_sync_backup_v1';
 const STUDENT_PROGRESS_PREFIX = 'chinese_portal_progress_v1_';
